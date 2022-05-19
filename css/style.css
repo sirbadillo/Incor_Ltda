@@ -1,0 +1,305 @@
+/* RESET*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 50, 138);
+}
+
+.header--logo{
+    width: 130px;
+    margin-left: 30px;
+}
+.nav__header{
+    width: 50%;
+}
+
+.ul__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.li__header{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+.a__header--color{
+    color: aliceblue;
+    font-size: 15px;
+}
+.seleccion__header{
+    background-color: rgba(7, 78, 160, 0.514);
+}
+/* Main*/
+main{
+    background-color: rgb(196, 220, 252);
+}
+/* Main imagenes construcciones*/
+.construcciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+.construcciones--tamaño{
+    width: 445px;
+    border-radius: 5%;
+}
+.construcciones--transparente{
+    width: 445px;
+    height: 335px;
+    opacity: 0.5;
+    border-radius: 5%;
+
+}
+/* Main texto y imagen en el centro*/
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    align-items: center;
+}
+.presentacion--imagen{
+    width: 500px;
+    margin-right: 80px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    border-radius: 15%;
+}
+
+.presentacion___texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion--h2{
+    font-size: 70px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.presentacion--p{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    margin-right: 100px;
+    margin-left: 30px;
+
+}
+/* Footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(43, 52, 80);
+}
+
+.footer__logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.a__footer--color{
+    color: aliceblue;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.img__footer{
+    width: 110px;
+    height: 70px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.footer__letras{
+    font-size: 15px;
+    color: aliceblue;
+}
+.footer__formulario{
+    background-color: rgb(79, 128, 153);
+    border: 5px solid rgb(29, 17, 3);
+    margin-right: 35px;
+}
+.ul__footer{
+    list-style: none;
+    margin-right: 400px;
+}
+
+/*Empresa*/
+/*Presentación empresa*/
+.empresa{
+    display: flex;
+    flex-direction: row;
+}
+.empresa__back{
+    background-image: url(../img/autos_desde_arriba.jpeg);
+    height: 150px;
+}
+.empresa--img{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    margin-left: 40px;
+    padding-top: 50px;
+}
+.empresa--títulos{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.empresa--parrafos{
+    font-size: 14px;
+    margin-left: 20px;
+
+}
+/*Presentación empresa*/
+.socios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.socios--img{
+    width: 350px;
+    height: 500px;
+    object-fit: contain;
+
+
+}
+
+/*SERVICIOS*/
+.servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    background-color: #9fa5b9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    border-radius: 10%;
+    
+
+}
+.servicios__back{
+    background-image: url(../img/casa_fabricando.jpeg);
+    height: 150px;
+    object-fit: fill;
+}
+.servicios__texto{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.servicios--img{
+    width: 500px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.servicios--boton{
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+/*OBRAS*/
+.obras{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.obras--back{
+    background-image: url(../img/pavimentando.jpeg);
+    height: 150px;
+}
+.obras__estructura{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: #2a418b77;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+.obras--img{
+    width: 400px;
+    object-fit: contain;
+    margin-top: 20px;
+    padding-left: 100px;
+}
+
+
+
+/*CONTACTOS*/
+.contacto{
+    background-image: url(../img/autos_desde_arriba.jpeg);
+    height: 150px;
+}
+.contacto--h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.contacto--formulario{
+    margin-top: 15px;
+    
+    margin-bottom: 10px;
+}
+.contacto--h2{
+    text-align: center;
+    color: #50a6ac;
+    font-size: 35px;
+    margin-bottom: 15px;
+  
+}
+.contacto--h3{
+    
+    color: #92c5c9;
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-left: 70px;
+
+  
+}
+.contacto__formulario{
+    width: 640px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #2970c0; 
+    padding-left: 30px; 
+}
+.contacto--letras{
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 70px;
+
+}
+.input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #3d48a8; 
+    margin-top: 10px;  
+   
+    margin-bottom: 20px; 
+    margin-left: 70px;
+  }
+
+  
