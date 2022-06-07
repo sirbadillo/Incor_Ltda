@@ -284,10 +284,16 @@ footer{
     padding-bottom: 20px;
 }
 .empresa--img{
-    width: 40%;
+    width: 35%;
     object-fit: cover;
     margin-left: 40px;
     padding-top: 50px;
+    border-radius: 15%;
+    transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.empresa--img:hover{
+    transform: scale(1.05,1.05);
 }
 .empresa--títulos{
     font-size: 2vw;
