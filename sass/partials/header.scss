@@ -1,0 +1,25 @@
+/*Header*/
+.header{
+    display: block;
+    justify-content: end;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    &--logo{
+        width: 60%;
+        padding-left: 2vw;
+    }
+    &__a--color{
+        color: aliceblue;
+        font-size: 1.2vw;
+        text-decoration: none; 
+    }
+   
+}
+nav ul li a{
+    padding: 0.5vw 0.5vw;
+    transition: all .25s ease-in-out;
+}
+nav ul li a:hover{
+    border-color: white;
+    border-bottom: 2px solid white;
+    font-weight: bold
+}

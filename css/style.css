@@ -1,9 +1,14 @@
 /* RESET*/
-*{
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+*/
+
+/* root{
+    --primary: #351a96f8;
+} */
 /* Header*/
 /*header{
     display: flex;
@@ -14,56 +19,50 @@
     
     padding-top: 10px;
 }*/
+/*
 .header{
     display: block;
     justify-content: end;
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
-body{
-    padding-left: 0px;
-    padding-right: 0px;
-}
+
 .header--logo{
     width: 60%;
     padding-left: 2vw;
 }
 
 
-.ul__header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
 
-.li__header{
-    
-    display: flex;
-    list-style: none;
-    padding: 20px;
-}
-.a__header--color{
+.header__a--color{
     color: aliceblue;
     font-size: 1.2vw;
     text-decoration: none;
 }
 
-nav ul li a{
+header nav ul li a{
     padding: 0.5vw 0.5vw;
     
     transition: all .25s ease-in-out;
 }
-nav ul li a:hover{
+
+header nav ul li a:hover{
     border-color: white;
     border-bottom: 2px solid white;
     font-weight: bold
     
 }
+*/
+
 
 /* Main*/
-main{
+/* main{
     background-color: rgb(255, 255, 255);
 
 }
+body{
+    padding-left: 0px;
+    padding-right: 0px;
+} */
 /* Main imagenes construcciones*/
 /*.construcciones{
     display: flex;
@@ -97,15 +96,16 @@ main{
     
 }
 */
-.construccion_imgg{
+/*.construccion_imgg{
     width: 100%;
     object-fit: cover;
     display: block;
     margin: 0 auto;
     
-}
+}*/
 
 /* Main texto y imagen en el centro*/
+/*Presentación
 .presentacion{
     display: flex;
     flex-direction: row;
@@ -140,20 +140,21 @@ main{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .presentacion--p{
-    font-size: px;
+    font-size: 2vw;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     margin-right: 100px;
     margin-left: 30px;
  
 }
-/* OBRAS DESTACADAS*/
+*/
+/* OBRAS DESTACADAS
 
 .obrasdestacadas--h2{
     width: 50%;
     display: block;
     margin: 0 auto;
     text-align: center;
-    background-color: #351a96f8;
+    background-color: var(--primary);
     color: aliceblue;
 }
 .obrasdestacadas{
@@ -208,46 +209,33 @@ main{
 .obrasdestacadas__img:nth-of-type(7){
     grid-column: 9/13;
 }
-/* Footer*/
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background: linear-gradient(to right, #141e30, #243b55);
-    padding-top: 20px;
-}
+*/
+/* Footer
 
-.footer__logo{
+
+.footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background: linear-gradient(to right, #141e30, #243b55);
+    padding-top: 20px;
 
 }
-.a__footer--color{
+.footer__a--color{
     color: aliceblue;
     font-size: 15px;
     margin-bottom: 10px;
 }
-.img__footer{
+.footer__img{
     width: 110px;
     height: 70px;
     margin-left: 30px;
     margin-right: 20px;
 }
-.footer__letras{
-    font-size: 15px;
-    color: aliceblue;
+.footer--direccion{
+    padding-top: 10px;
 }
-.footer__formulario{
-    background-color: rgb(79, 128, 153);
-    border: 5px solid rgb(29, 17, 3);
-    margin-right: 35px;
-}
-.ul__footer{
-    list-style: none;
-    margin-right: 400px;
-}
-
+*/
 
 
 
