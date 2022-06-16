@@ -1,1 +1,11 @@
-$primary: #351a96f8;
+$colors:(
+    primary: #351a96f8,
+    secondary: white,
+    alternative: black
+);
+@each $color, $value in colors {
+    .#{$color}{
+        color: #{$value};
+    }
+    
+}
