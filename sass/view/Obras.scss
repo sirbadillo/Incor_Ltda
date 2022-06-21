@@ -1,0 +1,32 @@
+.obras{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    &--back{
+        background-image: url(../img/pavimentando.jpeg);
+        height: 150px;
+    }
+    &__estructura{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        background-color: #2a418b77;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        border-radius: 10%;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 60px;
+    }
+    &--img{
+        width: 70%;
+        object-fit: contain;
+        padding-top: 20px;
+        padding-left: 100px;
+    }
+    &--boton{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+}

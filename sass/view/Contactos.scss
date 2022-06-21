@@ -1,0 +1,115 @@
+.contacto{
+    background-image: url(../img/autos_desde_arriba.jpeg);
+    height: 150px;
+    &--h1{
+        text-align: center;
+        font-size: 3vw;
+        padding-top: 50px;
+        color: #fbfbfb;
+    }
+    &--formulario{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    &--h2{
+        text-align: center;
+        color: map-get($colors , secondary );
+        font-size: 2vw;
+        margin-bottom: 15px;
+    }
+    &--h3{
+    
+        color: #92c5c9;
+        font-size: 1.5vw;
+        margin-bottom: 15px;
+        padding-left: 70px;
+
+    }
+    &__formulario{
+        width: 70%; 
+        margin: 4vw auto;
+        border-radius: 10px;  
+        padding-top: 30px;
+        padding-bottom: 20px;  
+        background-color: #2970c0; 
+        padding-left: 30px; 
+    }
+    &--letras{
+        font-size: 1.2vw;
+        color: aliceblue;
+        padding-left: 70px;
+    }
+}
+.input{
+    background-color: #fbfbfb; 
+    width: 80%;  
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #3d48a8; 
+    margin-top: 10px;  
+   
+    margin-bottom: 1vw; 
+    margin-left: 3vw;
+  }
+  @media screen and (max-width:480px) {
+    .contacto{
+        background-image: url(../img/autos_desde_arriba.jpeg);
+        height: 100%;
+    }
+    .contacto--h1{
+        text-align: center;
+        font-size: 2vw;
+        padding-top: 50px;
+    }
+    .contacto--formulario{
+        margin-top: 15px;
+        
+        margin-bottom: 10px;
+    }
+    .contacto--h2{
+        text-align: center;
+        color: #50a6ac;
+        font-size: 1.5vw;
+        margin-bottom: 15px;
+    
+    }
+    .contacto--h3{
+        
+        color: #92c5c9;
+        font-size: 1vw;
+        margin-bottom: 15px;
+        padding-left: 50px;
+
+    
+    }
+    .contacto__formulario{
+        width: 80%;
+        margin: 20px auto;
+        border-radius: 10px;  
+        padding-top: 30px;
+        padding-bottom: 20px;  
+        background-color: #2970c0; 
+        padding-left: 30px; 
+    }
+    .contacto--letras{
+        font-size: 20px;
+        color: aliceblue;
+        padding-left: 60px;
+
+    }
+    .input{
+        background-color: #fbfbfb; 
+        width: 70%; 
+ 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: #3d48a8; 
+        margin-top: 10px;  
+    
+        margin-bottom: 20px; 
+        margin-left: 60px;
+    }
+
+  }

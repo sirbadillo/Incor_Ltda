@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -19,9 +20,9 @@ body {
     width: 60%;
     padding-left: 2vw; }
   .header__a--color {
+    text-decoration: none;
     color: aliceblue;
-    font-size: 1.2vw;
-    text-decoration: none; }
+    font-size: 1.2vw; }
 
 nav ul li a {
   padding: 0.5vw 0.5vw;
@@ -49,6 +50,20 @@ nav ul li a:hover {
     margin-right: 20px; }
   .footer--direccion {
     padding-top: 10px; }
+
+@media screen and (max-width: 480px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .footer__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px; }
+  .footer--direccion {
+    padding-top: 10px; } }
 
 .titulo, .presentacion--h2 {
   color: #4d5d92; }
@@ -134,3 +149,214 @@ nav ul li a:hover {
     grid-row: 3; }
   .obrasdestacadas__img:nth-of-type(7) {
     grid-column: 9/13; }
+
+@media screen and (max-width: 480px) {
+  .presentacion {
+    display: flex;
+    flex-direction: column; }
+    .presentacion--imagen {
+      width: 60%;
+      padding-top: 25px;
+      margin-bottom: 30px;
+      border-radius: 15%; } }
+
+.empresa {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #d4d4d4;
+  padding-bottom: 40px; }
+  .empresa__back {
+    background-image: url(../img/autos_desde_arriba.jpeg);
+    height: 150px; }
+  .empresa__titulo--h2 {
+    font-size: 3vw;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 15px; }
+  .empresa__titulo--back {
+    background-color: #a3a7cf; }
+  .empresa__titulo--img {
+    width: 7%;
+    display: block;
+    margin: auto auto;
+    padding-bottom: 20px; }
+  .empresa--img {
+    width: 35%;
+    object-fit: cover;
+    margin-left: 40px;
+    padding-top: 50px;
+    border-radius: 15%;
+    transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1); }
+  .empresa--img:hover {
+    transform: scale(1.05, 1.05); }
+  .empresa--títulos {
+    font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20px;
+    padding-top: 40px; }
+  .empresa--parrafos {
+    font-size: 1vw;
+    margin-left: 20px; }
+
+.socios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #d4d4d4;
+  padding-top: 20px; }
+  .socios--img {
+    width: 70%;
+    object-fit: cover;
+    transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1); }
+  .socios--img:hover {
+    transform: scale(1.05, 1.05); }
+  .socios--parrafoo {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vw; }
+  .socios--parrafo {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1vw; }
+
+.servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  background-color: #9fa5b9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 300px;
+  border-radius: 10%; }
+  .servicios__back {
+    background-image: url(../img/casa_fabricando.jpeg);
+    height: 150px;
+    object-fit: fill; }
+  .servicios__texto {
+    margin-top: 20px;
+    margin-left: 20px; }
+  .servicios--img {
+    width: 500px;
+    object-fit: cover;
+    margin-top: 20px; }
+  .servicios--boton {
+    margin-left: 150px;
+    margin-right: 150px; }
+
+.obras {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .obras--back {
+    background-image: url(../img/pavimentando.jpeg);
+    height: 150px; }
+  .obras__estructura {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #2a418b77;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 10%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 60px; }
+  .obras--img {
+    width: 70%;
+    object-fit: contain;
+    padding-top: 20px;
+    padding-left: 100px; }
+  .obras--boton {
+    margin-left: 150px;
+    margin-right: 150px; }
+
+.contacto {
+  background-image: url(../img/autos_desde_arriba.jpeg);
+  height: 150px; }
+  .contacto--h1 {
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 50px;
+    color: #fbfbfb; }
+  .contacto--formulario {
+    margin-top: 15px;
+    margin-bottom: 10px; }
+  .contacto--h2 {
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+    margin-bottom: 15px; }
+  .contacto--h3 {
+    color: #92c5c9;
+    font-size: 1.5vw;
+    margin-bottom: 15px;
+    padding-left: 70px; }
+  .contacto__formulario {
+    width: 70%;
+    margin: 4vw auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #2970c0;
+    padding-left: 30px; }
+  .contacto--letras {
+    font-size: 1.2vw;
+    color: aliceblue;
+    padding-left: 70px; }
+
+.input {
+  background-color: #fbfbfb;
+  width: 80%;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #3d48a8;
+  margin-top: 10px;
+  margin-bottom: 1vw;
+  margin-left: 3vw; }
+
+@media screen and (max-width: 480px) {
+  .contacto {
+    background-image: url(../img/autos_desde_arriba.jpeg);
+    height: 100%; }
+  .contacto--h1 {
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 50px; }
+  .contacto--formulario {
+    margin-top: 15px;
+    margin-bottom: 10px; }
+  .contacto--h2 {
+    text-align: center;
+    color: #50a6ac;
+    font-size: 1.5vw;
+    margin-bottom: 15px; }
+  .contacto--h3 {
+    color: #92c5c9;
+    font-size: 1vw;
+    margin-bottom: 15px;
+    padding-left: 50px; }
+  .contacto__formulario {
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #2970c0;
+    padding-left: 30px; }
+  .contacto--letras {
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 60px; }
+  .input {
+    background-color: #fbfbfb;
+    width: 70%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3d48a8;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 60px; } }

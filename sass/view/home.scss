@@ -99,3 +99,16 @@
         grid-column: 9/13;
     }
 }
+@media screen and (max-width:480px) {
+    .presentacion{
+        display: flex;
+        flex-direction: column;
+        &--imagen{
+            width: 60%;
+            padding-top: 25px;
+            margin-bottom: 30px;
+            border-radius: 15%;
+        }
+    }
+
+}

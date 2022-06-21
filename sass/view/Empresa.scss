@@ -1,0 +1,72 @@
+.empresa{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #d4d4d4;
+    padding-bottom: 40px;
+    &__back{
+        background-image: url(../img/autos_desde_arriba.jpeg);
+        height: 150px;
+    }
+    &__titulo--h2{
+        font-size: 3vw;
+        text-align: center;
+        padding-bottom: 5px;
+        padding-top: 15px;
+    }
+    &__titulo--back{
+        background-color: #a3a7cf;
+    }
+    &__titulo--img{
+        width: 7%;
+        display: block;
+        margin: auto auto;
+        padding-bottom: 20px;
+    }
+    &--img{
+        width: 35%;
+        object-fit: cover;
+        margin-left: 40px;
+        padding-top: 50px;
+        border-radius: 15%;
+        transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    &--img:hover{
+        transform: scale(1.05,1.05);
+    }
+    &--títulos{
+        font-size: 2vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 20px;
+        padding-top: 40px;
+    }
+    &--parrafos{
+        font-size: 1vw;
+        margin-left: 20px;
+    }
+}
+.socios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #d4d4d4;
+    padding-top: 20px;
+    &--img{
+        width: 70%;
+        object-fit: cover;
+        transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    &--img:hover{
+        transform: scale(1.05,1.05);
+    }
+    &--parrafoo{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.5vw;
+    }
+    &--parrafo{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1vw;
+    }
+}

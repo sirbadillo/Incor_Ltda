@@ -244,86 +244,86 @@ body{
 
 /*Empresa*/
 /*Presentación empresa*/
-.empresa{
+/* .empresa{
     width: 100%;
     display: flex;
     flex-direction: row;
     background-color: #d4d4d4;
     padding-bottom: 40px;
     
-}
-.empresa__back{
+} */
+/* .empresa__back{
     background-image: url(../img/autos_desde_arriba.jpeg);
     height: 150px;
-}
-.empresa__titulo--h2{
+} */
+/* .empresa__titulo--h2{
     font-size: 3vw;
     text-align: center;
     padding-bottom: 5px;
     padding-top: 15px;
-}
-.empresa__titulo--back{
+} */
+/* .empresa__titulo--back{
     background-color: #a3a7cf;
-}
-.empresa__titulo--img{
+} */
+/* .empresa__titulo--img{
     width: 7%;
     display: block;
     margin: auto auto;
     padding-bottom: 20px;
-}
-.empresa--img{
+} */
+/* .empresa--img{
     width: 35%;
     object-fit: cover;
     margin-left: 40px;
     padding-top: 50px;
     border-radius: 15%;
     transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
+} */
 
-.empresa--img:hover{
+/* .empresa--img:hover{
     transform: scale(1.05,1.05);
-}
-.empresa--títulos{
+} */
+/* .empresa--títulos{
     font-size: 2vw;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 20px;
     padding-top: 40px;
-}
+} */
 
-.empresa--parrafos{
+/* .empresa--parrafos{
     font-size: 1vw;
     margin-left: 20px;
-}
+} */
 /*Empresa--Socios*/
-.socios{
+/* .socios{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     background-color: #d4d4d4;
     padding-top: 20px;
-}
+} */
 
-.socios--img{
+/* .socios--img{
     width: 70%;
     object-fit: cover;
     transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 
-}
-.socios--img:hover{
+} */
+/* .socios--img:hover{
     transform: scale(1.05,1.05);
-}
-.socios--parrafoo{
+} */
+/* .socios--parrafoo{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.5vw;
-}
-.socios--parrafo{
+} */
+/* .socios--parrafo{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1vw;
-}
+} */
 /*SERVICIOS*/
-.servicios{
+/* .servicios{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -335,28 +335,28 @@ body{
     border-radius: 10%;
     
 
-}
-.servicios__back{
+} */
+/* .servicios__back{
     background-image: url(../img/casa_fabricando.jpeg);
     height: 150px;
     object-fit: fill;
-}
-.servicios__texto{
+} */
+/* .servicios__texto{
     margin-top: 20px;
     margin-left: 20px;
-}
-.servicios--img{
+} */
+/* .servicios--img{
     width: 500px;
     object-fit: cover;
     margin-top: 20px;
-}
-.servicios--boton{
+} */
+/* .servicios--boton{
     margin-left: 150px;
     margin-right: 150px;
 
-}
+} */
 /*OBRAS*/
-.obras{
+/* .obras{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -365,8 +365,8 @@ body{
 .obras--back{
     background-image: url(../img/pavimentando.jpeg);
     height: 150px;
-}
-.obras__estructura{
+} */
+/* .obras__estructura{
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -377,23 +377,23 @@ body{
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 60px;
-}
-.obras--img{
+} */
+/* .obras--img{
     width: 70%;
     object-fit: contain;
     padding-top: 20px;
     padding-left: 100px;
-}
-.obras--boton{
+} */
+/* .obras--boton{
     margin-left: 150px;
     margin-right: 150px;
 
-}
+} */
 
 
 
 /*CONTACTOS*/
-.contacto{
+/* .contacto{
     background-image: url(../img/autos_desde_arriba.jpeg);
     height: 150px;
 }
@@ -402,8 +402,8 @@ body{
     font-size: 3vw;
     padding-top: 50px;
     color: #fbfbfb;
-}
-.contacto--formulario{
+} */
+/* .contacto--formulario{
     margin-top: 15px;
     
     margin-bottom: 10px;
@@ -414,17 +414,17 @@ body{
     font-size: 35px;
     margin-bottom: 15px;
   
-}
-.contacto--h3{
+} */
+/* .contacto--h3{
     
     color: #92c5c9;
     font-size: 20px;
     margin-bottom: 15px;
-    padding-left: 70px;|
+    padding-left: 70px;
 
   
-}
-.contacto__formulario{
+} */
+/* .contacto__formulario{
     width: 640px; 
     height: auto;
     margin: 80px auto;
@@ -433,14 +433,14 @@ body{
     padding-bottom: 20px;  
     background-color: #2970c0; 
     padding-left: 30px; 
-}
-.contacto--letras{
+} */
+/* .contacto--letras{
     font-size: 20px;
     color: aliceblue;
     padding-left: 70px;
 
-}
-.input{
+} */
+/* .input{
     background-color: #fbfbfb; 
     width: 408px; 
     height: 40px; 
@@ -452,30 +452,15 @@ body{
    
     margin-bottom: 20px; 
     margin-left: 70px;
-  }
+  } */
 
 
 
 
   @media screen and (max-width:480px) {
     /* Header*/
-
-    
-  
-    
-    
-    .li__header{
-        display: flex;
-        list-style: none;
-        padding:5px;
-    }
-    .a__header--color{
-        color: aliceblue;
-        font-size: 1vwpx;
-    }
-
    
-    /* Footer*/
+    /* Footer
     footer{
         display: flex;
         flex-direction: column;
@@ -490,16 +475,10 @@ body{
     }
     .footer--direccion{
         padding-top: 10px;
-    }
-
-
-
-
-
-
+    } */
     /* Home*/
  
-    .presentacion--imagen{
+    /* .presentacion--imagen{
         width: 60%;
         padding-top: 25px;
         margin-bottom: 30px;
@@ -510,7 +489,7 @@ body{
     .presentacion{
         display: flex;
         flex-direction: column;
-    }
+    } */
     
 
   
@@ -595,9 +574,9 @@ body{
     }
 
     /*CONTACTOS*/
-    .contacto{
+    /* .contacto{
         background-image: url(../img/autos_desde_arriba.jpeg);
-        height: 100px;
+        height: 100%px;
     }
     .contacto--h1{
         text-align: center;
@@ -626,8 +605,7 @@ body{
     
     }
     .contacto__formulario{
-        width: 360px; 
-        height: auto;
+        width: 100%;
         margin: 20px auto;
         border-radius: 10px;  
         padding-top: 30px;
@@ -643,8 +621,8 @@ body{
     }
     .input{
         background-color: #fbfbfb; 
-        width: 200px; 
-        height: 40px; 
+        width: 70%; 
+ 
         border-radius: 5px;  
         border-style: solid; 
         border-width: 1px; 
@@ -653,7 +631,7 @@ body{
     
         margin-bottom: 20px; 
         margin-left: 60px;
-    }
+    } */
 
 
 }

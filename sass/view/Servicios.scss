@@ -1,0 +1,30 @@
+.servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    background-color: #9fa5b9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    border-radius: 10%;
+    &__back{
+        background-image: url(../img/casa_fabricando.jpeg);
+        height: 150px;
+        object-fit: fill;
+    }
+    &__texto{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    &--img{
+        width: 500px;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+    &--boton{
+        margin-left: 150px;
+        margin-right: 150px;
+    
+    }
+}
